@@ -2,7 +2,7 @@ import { title } from "process";
 import React, { useState } from "react";
 import { Post } from "../Post";
 import "./App";
-import { postProp } from "./PostInList";
+import { PostProp } from "./PostInList";
 
 export interface PostFormProps {
   onSubmit: (Post: any) => void;

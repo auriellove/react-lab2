@@ -4,6 +4,11 @@ import "./App.css";
 import PostInList from "./Components/PostInList";
 import SocialPosts from "./Components/SocialPosts";
 
+export interface Post {
+  title: string;
+  thought: string;
+}
+
 function App() {
   return (
     <div className="App">
